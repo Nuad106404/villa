@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "about": "Acerca de",
+    "destinations": "Destinos",
+    "properties": "Propiedades",
+    "contact": "Contacto",
+    "backToHome": "Volver al inicio",
+    "bookNow": "Reservar ahora"
+  },
+  "hero": {
+    "title": "Experimenta el verdadero lujo",
+    "subtitle": "Descubre propiedades seleccionadas en los destinos más exclusivos del mundo"
+  },
+  "search": {
+    "location": "¿A dónde vas?",
+    "dates": "Agregar fechas",
+    "guest": "Huésped",
+    "guests": "Huéspedes",
+    "search": "Buscar",
+    "filters": "Filtros",
+    "popularDestinations": "Destinos populares",
+    "noResults": "No se encontraron propiedades",
+    "tryAdjusting": "Intenta ajustar los filtros de búsqueda",
+    "results": "Resultados de búsqueda",
+    "nearYou": "Cerca de ti",
+    "priceRange": "Rango de precio",
+    "minPrice": "Precio mínimo",
+    "maxPrice": "Precio máximo",
+    "propertyType": "Tipo de propiedad",
+    "amenities": "Servicios",
+    "rating": "Calificación",
+    "clearAll": "Limpiar todo",
+    "showResults": "Mostrar resultados"
+  },
+  "datePicker": {
+    "selectMonth": "Seleccionar mes",
+    "selectYear": "Seleccionar año",
+    "nextMonth": "Mes siguiente",
+    "previousMonth": "Mes anterior"
+  },
+  "destinations": {
+    "title": "Destinos populares",
+    "subtitle": "Descubre nuestra colección cuidadosamente seleccionada de propiedades en los destinos más codiciados del mundo",
+    "property": "Propiedad",
+    "properties": "Propiedades"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "about": "当サイトについて",
+    "destinations": "目的地",
+    "properties": "物件",
+    "contact": "お問い合わせ",
+    "backToHome": "ホームに戻る",
+    "bookNow": "予約する"
+  },
+  "hero": {
+    "title": "真の贅沢を体験",
+    "subtitle": "世界で最も魅力的な目的地の厳選された物件を見つける"
+  },
+  "search": {
+    "location": "どちらへお出かけですか？",
+    "dates": "日程を追加",
+    "guest": "宿泊者",
+    "guests": "宿泊者",
+    "search": "検索",
+    "filters": "フィルター",
+    "popularDestinations": "人気の目的地",
+    "noResults": "物件が見つかりません",
+    "tryAdjusting": "検索条件を変更してお試しください",
+    "results": "検索結果",
+    "nearYou": "近くの物件",
+    "priceRange": "価格帯",
+    "minPrice": "最低価格",
+    "maxPrice": "最高価格",
+    "propertyType": "物件タイプ",
+    "amenities": "設備・アメニティ",
+    "rating": "評価",
+    "clearAll": "すべてクリア",
+    "showResults": "結果を表示"
+  },
+  "datePicker": {
+    "selectMonth": "月を選択",
+    "selectYear": "年を選択",
+    "nextMonth": "次月",
+    "previousMonth": "前月"
+  },
+  "destinations": {
+    "title": "人気の目的地",
+    "subtitle": "世界で最も魅力的な目的地の厳選された物件をご覧ください",
+    "property": "物件",
+    "properties": "物件"
+  }
+}

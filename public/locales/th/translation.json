@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "about": "เกี่ยวกับเรา",
+    "destinations": "จุดหมายปลายทาง",
+    "properties": "ที่พัก",
+    "contact": "ติดต่อ",
+    "backToHome": "กลับสู่หน้าแรก",
+    "bookNow": "จองเลย"
+  },
+  "hero": {
+    "title": "สัมผัสประสบการณ์ความหรูหรา",
+    "subtitle": "ค้นพบที่พักคัดสรรในจุดหมายปลายทางที่พิเศษที่สุดในโลก"
+  },
+  "search": {
+    "location": "คุณจะไปที่ไหน?",
+    "dates": "เลือกวันที่",
+    "guest": "ผู้เข้าพัก",
+    "guests": "ผู้เข้าพัก",
+    "search": "ค้นหา",
+    "filters": "ตัวกรอง",
+    "popularDestinations": "จุดหมายปลายทางยอดนิยม",
+    "noResults": "ไม่พบที่พัก",
+    "tryAdjusting": "ลองปรับตัวกรองการค้นหา",
+    "results": "ผลการค้นหา",
+    "nearYou": "ใกล้คุณ",
+    "priceRange": "ช่วงราคา",
+    "minPrice": "ราคาต่ำสุด",
+    "maxPrice": "ราคาสูงสุด",
+    "propertyType": "ประเภทที่พัก",
+    "amenities": "สิ่งอำนวยความสะดวก",
+    "rating": "คะแนน",
+    "clearAll": "ล้างทั้งหมด",
+    "showResults": "แสดงผลการค้นหา"
+  },
+  "datePicker": {
+    "selectMonth": "เลือกเดือน",
+    "selectYear": "เลือกปี",
+    "nextMonth": "เดือนถัดไป",
+    "previousMonth": "เดือนก่อนหน้า"
+  },
+  "destinations": {
+    "title": "จุดหมายปลายทางยอดนิยม",
+    "subtitle": "ค้นพบที่พักคัดสรรในจุดหมายปลายทางที่น่าหลงใหลที่สุดในโลก",
+    "property": "ที่พัก",
+    "properties": "ที่พัก"
+  },
+  "property": {
+    "perNight": "ต่อคืน",
+    "reviews": "รีวิว",
+    "viewDetails": "ดูรายละเอียด",
+    "aboutProperty": "เกี่ยวกับที่พัก",
+    "amenities": "สิ่งอำนวยความสะดวก",
+    "rooms": "ห้องพัก",
+    "reviews": "รีวิว",
+    "selectDates": "เลือกวันที่",
+    "pleaseSelectRoom": "กรุณาเลือกห้องพัก",
+    "bookNow": "จองเลย",
+    "night": "คืน",
+    "nights": "คืน",
+    "total": "รวม",
+    "overview": "ภาพรวม"
+  },
+  "booking": {
+    "completeBooking": "กรอกข้อมูลการจอง",
+    "firstName": "ชื่อ",
+    "lastName": "นามสกุล",
+    "email": "อีเมล",
+    "phone": "เบอร์โทรศัพท์",
+    "guests": "จำนวนผู้เข้าพัก",
+    "proceedToPayment": "ดำเนินการชำระเงิน",
+    "termsAgree": "การดำเนินการต่อถือว่าคุณยอมรับข้อกำหนดและเงื่อนไข"
+  },
+  "payment": {
+    "completePayment": "ชำระเงิน",
+    "timeRemaining": "กรุณาโอนเงินภายในเวลาที่กำหนด",
+    "bookingDetails": "รายละเอียดการจอง",
+    "propertyName": "ที่พัก",
+    "guestName": "ชื่อผู้เข้าพัก",
+    "checkIn": "เช็คอิน",
+    "checkOut": "เช็คเอาท์",
+    "totalAmount": "ยอดรวม",
+    "paymentInfo": "ข้อมูลการชำระเงิน",
+    "uploadSlip": "อัพโหลดสลิปการโอนเงิน",
+    "confirmPayment": "ยืนยันการชำระเงิน",
+    "processing": "กำลังดำเนินการ...",
+    "successful": "ชำระเงินสำเร็จ!",
+    "thankYou": "ขอบคุณสำหรับการชำระเงิน การจองของคุณได้รับการยืนยันแล้ว",
+    "bookingReference": "หมายเลขการจอง",
+    "viewBookingDetails": "ดูรายละเอียดการจอง"
+  }
+}

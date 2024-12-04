@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    @apply bg-white text-gray-900;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-full font-medium transition-all duration-300 transform;
+  }
+
+  .btn-primary {
+    @apply bg-amber-500 text-white hover:bg-amber-600 hover:scale-105 shadow-lg hover:shadow-xl;
+  }
+
+  .btn-outline {
+    @apply border-2 border-white text-white hover:bg-white hover:text-black hover:scale-105;
+  }
+
+  .input-field {
+    @apply w-full border rounded-lg p-3 focus:ring-2 focus:ring-amber-400 focus:border-amber-400 transition-all;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500;
+  }
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.animate-slideIn {
+  animation: slideIn 0.6s ease-out forwards;
+}
+
+.animate-scaleIn {
+  animation: scaleIn 0.4s ease-out forwards;
+}
+
+/* Loading Skeleton */
+.skeleton {
+  @apply bg-gray-200 animate-pulse rounded;
+}
+
+/* Swiper Customization */
+.swiper-button-next,
+.swiper-button-prev {
+  @apply text-white bg-black/30 w-12 h-12 rounded-full transition-all duration-300 hover:bg-black/50 !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  @apply text-lg !important;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-white/70 transition-all duration-300 !important;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-amber-400 w-6 rounded-full !important;
+}
+
+/* Day Picker Customization */
+.rdp {
+  --rdp-cell-size: 40px !important;
+  --rdp-accent-color: #f59e0b !important;
+  --rdp-background-color: #fffbeb !important;
+  --rdp-accent-color-dark: #d97706 !important;
+  --rdp-background-color-dark: #fef3c7 !important;
+  --rdp-outline: 2px solid var(--rdp-accent-color) !important;
+  --rdp-outline-selected: 2px solid var(--rdp-accent-color) !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+.rdp-months {
+  @apply justify-center !important;
+}
+
+.rdp-month {
+  @apply w-full max-w-[300px] !important;
+}
+
+.rdp-table {
+  @apply w-full max-w-[300px] !important;
+}
+
+.rdp-caption {
+  @apply justify-center !important;
+}
+
+.rdp-cell {
+  @apply p-0 !important;
+}
+
+.rdp-head_cell {
+  @apply text-xs font-medium text-gray-600 !important;
+}
+
+.rdp-day {
+  @apply w-9 h-9 text-sm !important;
+}
+
+.rdp-day_selected {
+  @apply bg-amber-500 font-medium !important;
+}
+
+.rdp-day_selected:hover {
+  @apply bg-amber-600 !important;
+}
+
+.rdp-day_today {
+  @apply bg-amber-50 text-amber-600 font-medium !important;
+}
+
+.rdp-button:hover:not([disabled]):not(.rdp-day_selected) {
+  @apply bg-amber-50 !important;
+}
+
+/* Modal Animation */
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.modal-content {
+  animation: modalFadeIn 0.3s ease-out forwards;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full hover:bg-gray-400 transition-colors;
+}
+
+/* Toast Notification */
+.toast {
+  @apply fixed bottom-4 right-4 bg-black text-white px-6 py-3 rounded-lg shadow-lg transform transition-all duration-300;
+}
+
+.toast-enter {
+  @apply translate-y-4 opacity-0;
+}
+
+.toast-enter-active {
+  @apply translate-y-0 opacity-100;
+}
+
+.toast-exit {
+  @apply translate-y-0 opacity-100;
+}
+
+.toast-exit-active {
+  @apply translate-y-4 opacity-0;
+}
+
+/* Loading States */
+.loading-spinner {
+  @apply animate-spin text-amber-500;
+}
+
+/* Image Hover Effects */
+.image-hover {
+  @apply transition-transform duration-700 ease-out;
+}
+
+.image-hover:hover {
+  @apply scale-110;
+}
+
+/* Accessibility Focus Styles */
+:focus-visible {
+  @apply outline-none ring-2 ring-amber-400 ring-offset-2;
+}
+
+/* Form Validation Styles */
+.input-error {
+  @apply border-red-500 focus:ring-red-400 focus:border-red-400;
+}
+
+.error-message {
+  @apply text-red-500 text-sm mt-1 animate-slideIn;
+}

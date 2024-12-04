@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "about": "关于我们",
+    "destinations": "目的地",
+    "properties": "房源",
+    "contact": "联系我们",
+    "backToHome": "返回首页",
+    "bookNow": "立即预订"
+  },
+  "hero": {
+    "title": "体验真正的奢华",
+    "subtitle": "探索世界上最独特目的地的精选房源"
+  },
+  "search": {
+    "location": "您想去哪里？",
+    "dates": "选择日期",
+    "guest": "住客",
+    "guests": "住客",
+    "search": "搜索",
+    "filters": "筛选",
+    "popularDestinations": "热门目的地",
+    "noResults": "未找到房源",
+    "tryAdjusting": "请尝试调整搜索条件",
+    "results": "搜索结果",
+    "nearYou": "附近房源",
+    "priceRange": "价格区间",
+    "minPrice": "最低价格",
+    "maxPrice": "最高价格",
+    "propertyType": "房源类型",
+    "amenities": "设施服务",
+    "rating": "评分",
+    "clearAll": "清除全部",
+    "showResults": "显示结果"
+  },
+  "datePicker": {
+    "selectMonth": "选择月份",
+    "selectYear": "选择年份",
+    "nextMonth": "下个月",
+    "previousMonth": "上个月"
+  },
+  "destinations": {
+    "title": "热门目的地",
+    "subtitle": "探索世界上最受欢迎目的地的精选房源",
+    "property": "房源",
+    "properties": "房源"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "about": "About",
+    "destinations": "Destinations",
+    "properties": "Properties",
+    "contact": "Contact",
+    "backToHome": "Back to Home",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "title": "Experience True Luxury",
+    "subtitle": "Discover handpicked properties in the world's most exclusive destinations"
+  },
+  "search": {
+    "location": "Where are you going?",
+    "dates": "Add dates",
+    "guest": "Guest",
+    "guests": "Guests",
+    "search": "Search",
+    "filters": "Filters",
+    "popularDestinations": "Popular destinations",
+    "noResults": "No properties found",
+    "tryAdjusting": "Try adjusting your search filters",
+    "results": "Search Results",
+    "nearYou": "Near you",
+    "priceRange": "Price Range",
+    "minPrice": "Min Price",
+    "maxPrice": "Max Price",
+    "propertyType": "Property Type",
+    "amenities": "Amenities",
+    "rating": "Rating",
+    "clearAll": "Clear all",
+    "showResults": "Show results"
+  },
+  "datePicker": {
+    "selectMonth": "Select month",
+    "selectYear": "Select year",
+    "nextMonth": "Next month",
+    "previousMonth": "Previous month"
+  },
+  "destinations": {
+    "title": "Popular Destinations",
+    "subtitle": "Discover our carefully curated collection of properties in the world's most sought-after locations",
+    "property": "Property",
+    "properties": "Properties"
+  },
+  "property": {
+    "perNight": "per night",
+    "reviews": "reviews",
+    "viewDetails": "View Details",
+    "aboutProperty": "About this property",
+    "amenities": "Amenities",
+    "rooms": "Rooms",
+    "reviews": "Reviews",
+    "selectDates": "Select dates",
+    "pleaseSelectRoom": "Please select a room",
+    "bookNow": "Book Now",
+    "night": "night",
+    "nights": "nights",
+    "total": "Total",
+    "overview": "Overview"
+  },
+  "booking": {
+    "completeBooking": "Complete Your Booking",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "guests": "Number of Guests",
+    "proceedToPayment": "Proceed to Payment",
+    "termsAgree": "By proceeding, you agree to our terms and conditions"
+  },
+  "payment": {
+    "completePayment": "Complete Your Payment",
+    "timeRemaining": "Please transfer the payment within the given time",
+    "bookingDetails": "Booking Details",
+    "propertyName": "Property",
+    "guestName": "Guest Name",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "totalAmount": "Total Amount",
+    "paymentInfo": "Payment Information",
+    "uploadSlip": "Upload Payment Slip",
+    "confirmPayment": "Confirm Payment",
+    "processing": "Processing...",
+    "successful": "Payment Successful!",
+    "thankYou": "Thank you for your payment. Your booking has been confirmed.",
+    "bookingReference": "Booking Reference",
+    "viewBookingDetails": "View Booking Details"
+  }
+}
